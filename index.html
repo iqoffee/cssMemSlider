@@ -5,51 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CssMemSlider</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="container">
-      <fieldset class="controls">
-        <label class="controls__control control" for="slide1">
-          <input
-            type="radio"
-            class="control__radio"
-            id="slide1"
-            name="slideControl"
-            checked
-          />Slide 1</label
-        >
-        <label class="controls__control control" for="slide2">
-          <input
-            type="radio"
-            class="control__radio"
-            id="slide2"
-            name="slideControl"
-          />Slide 2</label
-        >
-        <label class="controls__control control" for="slide3">
-          <input
-            type="radio"
-            class="control__radio"
-            id="slide3"
-            name="slideControl"
-          />Slide 3</label
-        >
-        <label class="controls__control control" for="slide4">
-          <input
-            type="radio"
-            class="control__radio"
-            id="slide4"
-            name="slideControl"
-          />Slide 4</label
-        >
-      </fieldset>
+      <label class="controls__control control" for="slide1">Slide 1</label>
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide1"
+        name="slideControl"
+        checked
+      />
+      <label class="controls__control control" for="slide2">Slide 2</label>
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide2"
+        name="slideControl"
+      />
+      <label class="controls__control control" for="slide3">Slide 3</label>
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide3"
+        name="slideControl"
+      />
+      <label class="controls__control control" for="slide4">Slide 4</label>
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide4"
+        name="slideControl"
+      />
+
       <div class="slides">
         <div class="slide slide1">
-          <img src="./assets/img/meme1.jpg" alt="Willy Wonka" />
+          <img
+            class="slide__img"
+            src="./assets/img/meme1.jpg"
+            alt="Willy Wonka"
+          />
         </div>
 
-        <div class="slide slide1 2">
+        <div class="slide slide2">
           <img
+            class="slide__img"
             src="./assets/img/meme2.jpg"
             alt="
           Robert Downey Jr"
@@ -57,11 +58,19 @@
         </div>
 
         <div class="slide slide3">
-          <img src="./assets/img/meme3.jpg" alt="Ken Jeong" />
+          <img
+            class="slide__img"
+            src="./assets/img/meme3.jpg"
+            alt="Ken Jeong"
+          />
         </div>
 
         <div class="slide slide4">
-          <img src="./assets/img/meme4.jpg" alt="Shaun Bean" />
+          <img
+            class="slide__img"
+            src="./assets/img/meme4.jpg"
+            alt="Shaun Bean"
+          />
         </div>
       </div>
 
