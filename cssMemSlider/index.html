@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CssMemSlider</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide1"
+        name="slideControl"
+        checked
+      />
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide2"
+        name="slideControl"
+      />
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide3"
+        name="slideControl"
+      />
+      <input
+        type="radio"
+        class="control__radio"
+        id="slide4"
+        name="slideControl"
+      />
+
+      <div class="controls">
+        <label class="controls__control control" for="slide1">
+          <div class="control-wrapper">Slide 1</div></label
+        >
+        <label class="controls__control control" for="slide2">
+          <div class="control-wrapper">Slide 2</div></label
+        >
+        <label class="controls__control control" for="slide3">
+          <div class="control-wrapper">Slide 3</div></label
+        >
+        <label class="controls__control control" for="slide4">
+          <div class="control-wrapper">Slide 4</div></label
+        >
+      </div>
+
+      <div class="slides">
+        <div class="slide slide1">
+          <img
+            class="slide__img"
+            src="./assets/img/meme1.jpg"
+            alt="Willy Wonka"
+          />
+        </div>
+
+        <div class="slide slide2">
+          <img
+            class="slide__img"
+            src="./assets/img/meme2.jpg"
+            alt="
+          Robert Downey Jr"
+          />
+        </div>
+
+        <div class="slide slide3">
+          <img
+            class="slide__img"
+            src="./assets/img/meme3.jpg"
+            alt="Ken Jeong"
+          />
+        </div>
+
+        <div class="slide slide4">
+          <img
+            class="slide__img"
+            src="./assets/img/meme4.jpg"
+            alt="Shaun Bean"
+          />
+        </div>
+      </div>
+
+      <div class="slides-text">
+        <p class="slides-text__text slides-text__text1">
+          Давай, расскажи про веб разработку
+        </p>
+        <p class="slides-text__text slides-text__text2">
+          Когда не успеваешь к дедлайну
+        </p>
+        <p class="slides-text__text slides-text__text3">Минусы JavaScript</p>
+        <p class="slides-text__text slides-text__text4">
+          Нельзя просто взять и понять рекурсию
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
